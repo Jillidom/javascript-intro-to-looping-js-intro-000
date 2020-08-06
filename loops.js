@@ -9,15 +9,18 @@ function forloop(array) {
 }
 
 function whileLoop(n) {
-  while (n > 0) {
-    console.log(--n)}
-    return "done"}
+  let countdown = n;
 
-  function maybeTrue() {
-    return Math.random() >= 0.5
+  while (countdown > 0) {
+    console.log(--countdown)
+  }
+  return "done";
   }
 
-  function doWhileLoop(array) {
-    do {array.pop()}
-    while (array.lenght > 0 && maybeTrue());
-    return array}
+function doWhileLoop(array) {
+  function maybeTrue() {
+    return Math.random() >= 0.5}
+  }
+}
+
+
